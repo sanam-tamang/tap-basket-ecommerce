@@ -1,0 +1,57 @@
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="footer-title">TapBasket</h3>
+                <p>Your one-stop destination for all electronic needs. We provide high-quality products at competitive
+                    prices.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3 class="footer-title">Quick Links</h3>
+                <ul class="footer-links">
+                    <li class="footer-link"><a href="index.jsp">Home</a></li>
+                    <li class="footer-link"><a href="login.jsp">Login</a></li>
+                    <li class="footer-link"><a href="register.jsp">Register</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3 class="footer-title">Categories</h3>
+                <ul class="footer-links">
+                    <li class="footer-link"><a href="index.jsp?type=mobile">Mobiles</a></li>
+                    <li class="footer-link"><a href="index.jsp?type=laptop">Laptops</a></li>
+                    <li class="footer-link"><a href="index.jsp?type=tv">TVs</a></li>
+                    <li class="footer-link"><a href="index.jsp?type=camera">Cameras</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3 class="footer-title">Contact Us</h3>
+                <ul class="footer-links">
+                    <li class="footer-link"><i class="fas fa-map-marker-alt"></i> 123 Electronics Street, Tech City</li>
+                    <li class="footer-link"><i class="fas fa-phone"></i> +1 234 567 8900</li>
+                    <li class="footer-link"><i class="fas fa-envelope"></i> info@tapbasket.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 TapBasket. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- JavaScript for Mobile Menu -->
+<script>
+    // Mobile Menu Toggle
+    document.addEventListener('DOMContentLoaded', function () {
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        if (mobileMenuToggle) {
+            mobileMenuToggle.addEventListener('click', function () {
+                document.getElementById('mainNav').classList.toggle('active');
+            });
+        }
+    });
+</script>
